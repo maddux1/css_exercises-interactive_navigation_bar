@@ -1,0 +1,57 @@
+/* https://github.com/nashville-software-school/front-end-curriculum/tree/master/04-css101 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  background-color: grey;
+  padding: .4em;
+  height: 20%;
+}
+
+/* NAVIGATION BAR */
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: royalblue;
+  padding: 1.1em;
+  margin: 16px 4.8px 16px 4.8px;
+  font-style: normal;
+  border-radius: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+
+.navbar li:hover {
+  background-color: green;
+  margin: 16px 9.8px 16px 9.8px; 
+ border: 6px dotted white;
+ font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
